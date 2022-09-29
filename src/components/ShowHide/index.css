@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+}
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.show-hide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.names-button {
+  background-color: #ffffff;
+  color: #dd1264;
+  font-family: 'Roboto';
+  font-weight: 700;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border: none;
+  cursor: pointer;
+}
+.para-text {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto';
+  background-color: #fddddb;
+  padding-top: 48px;
+  padding-left: 106px;
+  padding-right: 106px;
+  padding-bottom: 48px;
+  border-radius: 8px;
+}
+
+@media all and (min-width: 768px) {
+  .show-hide-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+  }
+}
